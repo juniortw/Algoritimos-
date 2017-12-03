@@ -59,7 +59,7 @@ public class Prova1A {
                     System.out.println("Valor Invalido");
                     System.exit(0);
                 }
-                double trapesio = altura*(basemaior + basemenor) / 2;
+                double trapezio = altura*(basemaior + basemenor) / 2;
                 System.out.println("A área do FIGURA é de? "+trapesio);
                 
                 
