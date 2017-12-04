@@ -22,7 +22,7 @@ public class EnvioEmaisl {
         
         email.setHostName("smtp.googlemail.com");
         email.setSmtpPort(465);
-        email.setAuthenticator(new DefaultAuthenticator("juuh.tw@gmail.com", "fr072dp303fgk"));
+        email.setAuthenticator(new DefaultAuthenticator("juuh.tw@gmail.com", "************"));
         email.setSSLOnConnect(true);
         email.setFrom("juuh.tw@gmail.com");
         email.setSubject(assunto);
